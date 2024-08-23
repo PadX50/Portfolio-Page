@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+    text-align: center;
+}
+
+header {
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/09/blackhole_1600.jpg?w=4096&format=jpeg);
+    padding: 50px 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-family: "Matemasie", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 45px;
+}
+
+header p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white
+}
+
+header a {
+    font-family: "Poppins", sans-serif;
+    background-color: #007bff;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+header a:hover {
+    background-color: #2488f3;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature {
+    font-family: "Rubik", sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    font-family: "Rubik", sans-serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+footer a {
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    color: cadetblue;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
